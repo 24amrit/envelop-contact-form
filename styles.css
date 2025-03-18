@@ -9,7 +9,7 @@ body {
 }
 
 .contact-envelope {
-    height: 120vh;
+    height: 60.3rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -17,7 +17,38 @@ body {
     font-family: sans-serif;
     margin-top: 20rem;
 }
-
+.enlw {
+    position: relative;
+    left: 32.5rem;
+    top: -94.8px;
+    z-index: 2;
+}
+.line{    
+    position: absolute;
+    background-color: #EABDAF;
+    width: 2px;
+    height: 24.3rem;
+    /* left: 55%; */
+    /* top: 28%; */
+    transform: translateX(-50%) rotate(120.7deg);
+    z-index: 1;
+}
+.enlw2 {
+    position: relative;
+    left: 11rem;
+    top: -102px;
+    z-index: 2;
+}
+.line2{    
+    position: absolute;
+    background-color: #EABDAF;
+    width: 2px;
+    height: 25.2rem;
+    /* left: 55%; */
+    /* top: 28%; */
+    transform: translateX(-50%) rotate(60.5deg);
+    z-index: 1;
+}
 .wrapper {
     height: 25rem;
     width: 43rem;
@@ -76,7 +107,9 @@ body {
     top: 0;
     width: 90%;
     height: 25rem;
-    background-color: #fce8e1;
+    background: url(img/enveloper-form.png);
+    background-position: center top;
+    background-size: cover;
     border-radius: 15px;
     z-index: 2;
     transition: transform 0.5s, height 0.5s ease;
@@ -174,12 +207,15 @@ textarea {
 }
 
 .bor-sty {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 20px;
     padding: 20px;
 }
 
-/* Base styles remain unchanged */
+.fom-btn button{
+    border: none;
+    background: none;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
